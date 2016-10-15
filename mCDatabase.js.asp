@@ -284,7 +284,7 @@ function mCDatabase()
 		this.rs = null;
 		this.eof = true;
 		
-		this.kvs = [];
+		this.kvs = []; // key/value array
 		this.where = "";
 		
 		// 增

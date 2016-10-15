@@ -57,7 +57,7 @@
 【读写Access 2007数据库demo】
 【Read and write Access 2007 database demo】
 
-【mCDatabase.js.asp】
+【mCDatabase.js.asp】★★★★★
 【读写数据库的类】
 【Read and write database class】
 
