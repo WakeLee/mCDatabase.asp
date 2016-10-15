@@ -68,5 +68,3 @@
 【sqlserver.asp】
 【读写SQL Server数据库demo】
 【Read and write SQL Server database demo】
-
-
