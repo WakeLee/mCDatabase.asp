@@ -492,7 +492,7 @@ function mCDatabase()
 			
 			try
 			{
-				value = parseInt( "" + this.rs(key) );
+				if( !isNaN( "" + this.rs(key) ) ) value = parseInt( "" + this.rs(key) );
 			}
 			catch(e)
 			{
@@ -510,7 +510,7 @@ function mCDatabase()
 			
 			try
 			{
-				value = parseFloat( "" + this.rs(key) );
+				if( !isNaN( "" + this.rs(key) ) ) value = parseFloat( "" + this.rs(key) );
 			}
 			catch(e)
 			{
